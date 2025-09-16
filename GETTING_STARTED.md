@@ -30,19 +30,19 @@
 
 10. By now, the project must have been successfully loaded, you can verify this by looking at the bottom-left corner. You should only see `Java: Ready`. If you have an error you should see `Java: Error` or `Gradle: Build Error`, you can click on it to see the details. (See [Troubleshooting](#Troubleshooting))
 
-8. If everything is good, go to the `Gradle` tab (the elephant icon on the left of the editor). 
+11. If everything is good, go to the `Gradle` tab (the elephant icon on the left of the editor). 
 
-9. Double click on the `Tasks > microej > runOnSimulator` task to run the project in the Simulator.
+12. Double click on the `Tasks > microej > runOnSimulator` task to run the project in the Simulator.
 
 ![Gradle tab](resources/getting_started_5.png)
 
-10. After a few seconds you should see the Example Java Widgets Application running:
+13. After a few seconds you should see the Example Java Widgets Application running:
 
 ![Simulator shown in the Simple Browser](resources/getting_started_6.png)
 
-11. You can now easily update the Application and quickly test your changes. For example, go to `src/main/java/com/microej/demo/widget/main/MainPage.java` and change the value of the `GRAY` variable (to the color red for example: `0xff0000`), then click on the refresh icon next to the `runOnSimulator` task to restart the simulator to see the result in the Simple Browser. 
+14. You can now easily update the Application and quickly test your changes. For example, go to `src/main/java/com/microej/demo/widget/main/MainPage.java` and change the value of the `GRAY` variable (to the color red for example: `0xff0000`), then click on the refresh icon next to the `runOnSimulator` task to restart the simulator to see the result in the Simple Browser. 
 
-12. That's it! Have fun with the MicroEJ SDK.
+15. That's it! Have fun with the MicroEJ SDK.
 
 ## Troubleshooting
 
