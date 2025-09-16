@@ -8,15 +8,15 @@
 
 3. Click on the `Code` button, then select the `Codespaces` tab, and finally click `Create codespace on master` (You should see a popup with `Setting up ...`, it may take a while to start..). 
 
-![The Codespaces tab in the Code window](https://hackmd.cross/uploads/upload_e06648ed280ec3336f35488887d6e194.png)
+![The Codespaces tab in the Code window](resources/getting_started_1.png)
 
 4. If you are on Firefox it may not work due to your browser privacy settings. You can either switch browser or remove the tracking content in your settings to make it work, but it may reduce security protections so be careful!
 
-![Firefox settings page](https://hackmd.cross/uploads/upload_4f68ef2a5bb4ee3320eff5dd8a268dba.png)
+![Firefox settings page](resources/getting_started_2.png)
 
 5. The IDE ``Opening Java Project`` phase is quite long, so you will need to wait for it to finish loading.. But once started, click on `Yes` in the upcoming popup in the left corner to accept the [MicroEJ SDK EULA](https://developer.microej.com/license-agreement-sdk/), after reading them obviously, and build the MicroEJ project.
 
-![The MicroEJ SDK EULA choice window](https://hackmd.cross/uploads/upload_0f26382d618d4f1278da6eedac193b72.png)
+![The MicroEJ SDK EULA choice window](resources/getting_started_3.png)
 
 6. Then click on the `Reload project` button.
 
@@ -26,7 +26,7 @@
 
 9. It will open a Simple Browser, like the one in the screenshot below, and you will need to click on connect. This is where the simulator will be featured, so be sure to keep it open!
 
-![Simple Browser and 6080 preview button](https://hackmd.cross/uploads/upload_4993902d79420d662c545183dd5d313f.png)
+![Simple Browser and 6080 preview button](resources/getting_started_4.png)
 
 10. By now, the project must have been successfully loaded, you can verify this by looking at the bottom-left corner. You should only see `Java: Ready`. If you have an error you should see `Java: Error` or `Gradle: Build Error`, you can click on it to see the details. (See [Troubleshooting](#Troubleshooting))
 
@@ -34,11 +34,11 @@
 
 9. Double click on the `Tasks > microej > runOnSimulator` task to run the project in the Simulator.
 
-![Gradle tab](https://hackmd.cross/uploads/upload_24b4304a9ba5d77de8326c0a66689ff1.png)
+![Gradle tab](resources/getting_started_5.png)
 
 10. After a few seconds you should see the Example Java Widgets Application running:
 
-![Simulator shown in the Simple Browser](https://hackmd.cross/uploads/upload_26c31b9491e83bf9136d3bdbfebe461f.png)
+![Simulator shown in the Simple Browser](resources/getting_started_6.png)
 
 11. You can now easily update the Application and quickly test your changes. For example, go to `src/main/java/com/microej/demo/widget/main/MainPage.java` and change the value of the `GRAY` variable (to the color red for example: `0xff0000`), then click on the refresh icon next to the `runOnSimulator` task to restart the simulator to see the result in the Simple Browser. 
 
